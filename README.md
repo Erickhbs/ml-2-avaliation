@@ -13,7 +13,7 @@ ter um editor já configurado para python ou VISUAL STUDIO CODE
 
 ### 🔧 Instalação
 
-Comando no PowerShell ou no terminal da pasta da aplicação que você quer testar, seja bancCredit ou housePredict para criar o envirorment python:
+Comando no PowerShell ou no terminal da pasta da aplicação que você quer testar, seja bancCredit ou housePredict para criar o envirorment python e rodar o instalador com as bibliotecas necessárias:
 ```
 python -m venv env
 env/Scripts/activate
