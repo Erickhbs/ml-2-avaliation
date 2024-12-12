@@ -1,0 +1,11 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "housing_median_age": 15,
+    "total_rooms": 3000,
+    "total_bedrooms": 500,
+    "population": 1000,
+    "households": 300,
+    "median_income": 5.0,
+    "rooms_per_household": 10,
+    "bedrooms_per_room": 0.2,
+    "ocean_proximity": 2
+}'
