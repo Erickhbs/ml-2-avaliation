@@ -1,6 +1,6 @@
 # ML 2ª avaliação
 
-Duas pastas com projetos e o notebook para consumir uum modelo de ML treinado
+Duas pastas com projetos e o notebook para consumir um modelo de ML treinado
 
 ## 🚀 Começando
 
@@ -8,13 +8,12 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 📋 Pré-requisitos
 
-Seu sistema operacional ser Windows
 Você precisa do python intalado 
 ter um editor já configurado para python ou VISUAL STUDIO CODE
 
 ### 🔧 Instalação
 
-Comando no PowerShell na pasta da aplicação que você quer testar, seja bancCredit ou housePredict para criar o envirorment python:
+Comando no PowerShell ou no terminal da pasta da aplicação que você quer testar, seja bancCredit ou housePredict para criar o envirorment python:
 ```
 python -m venv env
 env/Scripts/activate
