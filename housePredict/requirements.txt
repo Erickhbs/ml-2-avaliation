@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+Flask
+numpy
+pandas
+joblib
+scikit-learn
+=======
+Flask
+numpy
+pandas
+joblib
+scikit-learn
+>>>>>>> 60e5b3949a908214ae1bf80d25d08a57f2341fbd

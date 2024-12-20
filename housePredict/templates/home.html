@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de Valores de Imóveis</title>
+</head>
+<body>
+    <h1>Previsão de Valores de Imóveis</h1>
+    <form action="/predict" method="POST" id="predictionForm">
+        <label for="latitude">Latitude:</label>
+        <input type="number" step="any" id="latitude" name="latitude" required><br><br>
+
+        <label for="longitude">Longitude:</label>
+        <input type="number" step="any" id="longitude" name="longitude" required><br><br>
+
+        <label for="housing_median_age">Idade Média da Habitação:</label>
+        <input type="number" step="0.1" id="housing_median_age" name="housing_median_age" required><br><br>
+        
+        <label for="total_rooms">Total de Quartos:</label>
+        <input type="number" step="1" id="total_rooms" name="total_rooms" required><br><br>
+        
+        <label for="total_bedrooms">Total de Dormitórios:</label>
+        <input type="number" step="1" id="total_bedrooms" name="total_bedrooms" required><br><br>
+        
+        <label for="population">População:</label>
+        <input type="number" step="1" id="population" name="population" required><br><br>
+        
+        <label for="households">Famílias:</label>
+        <input type="number" step="1" id="households" name="households" required><br><br>
+        
+        <label for="median_income">Renda Mediana em mil:</label>
+        <input type="number" step="0.1" id="median_income" name="median_income" required><br><br>
+        
+        <label for="rooms_per_household">Quartos por Casa:</label>
+        <input type="number" step="0.1" id="rooms_per_household" name="rooms_per_household" required><br><br>
+        
+        <label for="bedrooms_per_room">Media de Quartos por Sala:</label>
+        <input type="number" step="0.1" id="bedrooms_per_room" name="bedrooms_per_room" required><br><br>
+        
+        <label for="ocean_proximity">Proximidade ao Oceano:</label>
+        <select id="ocean_proximity" name="ocean_proximity" required>
+            <option value="0">Perto do Oceano</option>
+            <option value="1">Interior</option>
+            <option value="2">Perto da Baía</option>
+            <option value="3">Ilha</option>
+        </select><br><br>
+
+        <button type="submit">Prever</button>
+    </form>
+</body>
+</html>
